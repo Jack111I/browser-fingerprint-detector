@@ -1,5 +1,5 @@
-# browser-fingerprint-detector
-A website that shows users exactly how much information their browser leaks.
+<img width="734" height="241" alt="Untitled-2 (74)" src="https://github.com/user-attachments/assets/bcce1a27-3777-4ed6-839d-73ce56492ffa" />
+
 # Browser Fingerprint Detector
 
 Simple web tool demonstrating browser fingerprinting techniques:
@@ -15,3 +15,6 @@ Simple web tool demonstrating browser fingerprinting techniques:
 
 ## License
 MIT — for educational purposes only. Do not use for invasive tracking without consent.
+
+
+D\Live touch - https://jack111i.github.io/browser-fingerprint-detector/
