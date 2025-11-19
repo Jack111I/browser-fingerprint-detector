@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Browser Fingerprint Detector ᯓ★ˎˊ˗ </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <svg width="36" height="36" viewBox="0 0 24 24" aria-hidden><path fill="currentColor" d="M12 2L2 7v7c0 5 4 9 10 9s10-4 10-9V7L12 2z"></path></svg>
+      <div class="brand-text">
+        <h1>Fingerprint Detector ִ ࣪𖤐.ᐟ </h1>
+        <small> ✦ See what your browser exposes ✦ </small>
+      </div>
+    </div>
+    <div class="actions">
+      <button id="copyBtn">Copy fingerprint ˙⋆✮ </button>
+      <button id="exportBtn">Export JSON ≽^•⩊•^≼ </button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="left-col">
+      <div class="card" id="summaryCard">
+        <h2>Summary</h2>
+        <p id="summaryText"> ≽ ^⎚ ˕ ⎚^ ≼ Collecting data — allow a few seconds...── .✦</p>
+        <pre id="fingerprintHash" class="hash">—</pre>
+      </div>
+
+      <div class="card" id="hardwareCard">
+        <h3> Hardware & System</h3>
+        <ul id="hardwareList"></ul>
+      </div>
+
+      <div class="card" id="screenCard">
+        <h3>Display & Input</h3>
+        <ul id="screenList"></ul>
+      </div>
+
+      <div class="card" id="featuresCard">
+        <h3>Feature Support ✮</h3>
+        <ul id="featureList"></ul>
+      </div>
+    </section>
+
+    <aside class="right-col">
+      <div class="card" id="canvasCard">
+        <h3>Canvas Fingerprint</h3>
+        <canvas id="canvas" width="300" height="120" class="fingerprintCanvas"></canvas>
+        <pre id="canvasHash" class="smallhash">—</pre>
+      </div>
+
+      <div class="card" id="webglCard">
+        <h3>WebGL / GPU</h3>
+        <pre id="webglInfo" class="smallhash">—</pre>
+      </div>
+
+      <div class="card" id="audioCard">
+        <h3>Audio ♰ Fingerprint</h3>
+        <pre id="audioHash" class="smallhash">—</pre>
+      </div>
+
+      <div class="card" id="fontsCard">
+        <h3>Detected Fonts (sample)</h3>
+        <ul id="fontList"></ul>
+      </div>
+
+      <div class="card" id="uaCard">
+        <h3>User Agent & Time</h3>
+        <pre id="uaBlock" class="smallhash">—</pre>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <small>Built for education — this tool demonstrates browser fingerprinting techniques. 𖤝 fahhhhh </small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
